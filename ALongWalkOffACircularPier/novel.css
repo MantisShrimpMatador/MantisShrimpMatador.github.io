@@ -1,40 +1,32 @@
+@mainfont
+{
+	font-family:longwalk;
+	src:url("IBMPlexMono-Regular.otf");
+}
+
+@mainfont2
+{
+	font-family:longwalk2;
+	src:url("NotoSans-Black.ttf");
+}
+
 body
 {
 	background-color:rgb(0,0,0);
 	color:rgb(215,50,50);
-	font-family:monospace;
-}
-
-#title
-{
-	font-size:4em;
-	text-align:right;
-	text-spacing:8em;
-	margin-right:10%;
-	font-weight:bold;
-	font-family:serif;
-	margin-bottom:2%;
-	color:rgb(215,30,30);
-}
-
-#author
-{
-	text-align:right;
-	font-size:1.7em;
-	margin-bottom:3.5%;
-	margin-right:10%;
-	font-style:italic;
+	font-family:longwalk2;
+	
 }
 
 p.content
 {
 	text-align:justify;
-	font-size:1.7em;
-	font-weight:bold;
+	font-size:1.5em;
 	text-indent:5em;
 	line-height:1.8em;
 	margin-left:5%;
 	margin-right:10%;
+	font-family:longwalk;
 }
 
 p.sectionend
@@ -46,13 +38,12 @@ p.sectionend
 p.chapterhead
 {
 	text-align:left;
-	font-size:2.65em;
+	font-size:2.52em;
 	letter-spacing:0.30em;
 	margin-bottom:4%;
 	color:rgb(215,30,30);
 	margin-left:5%;
 	margin-right:10%;
-	font-family:serif;
 	border-bottom:2px;
 	border-bottom-style:solid;
 	padding-bottom:0.4%;
@@ -70,7 +61,6 @@ p.endofchapter
 {
 	text-align:center;
 	font-size:5em;
-	font-family:serif;
 	color:rgb(255,30,30);
 	font-weight:bold;
 	letter-spacing:0.43em;
@@ -113,6 +103,16 @@ a:visited
 	font-style:underline;
 }
 
+a:hover.titlepic
+{
+	border-style:none;
+}
+
+a:hover.endofchapter
+{
+	border-style:none;
+}
+
 table.chapterheading
 {
 	table-layout:fixed;
@@ -150,5 +150,5 @@ img.titlepic
 	margin-left:auto;
 	margin-right:auto;
 	width:30%;
-	height:auto%;
+	height:70%;
 }
