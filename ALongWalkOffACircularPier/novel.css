@@ -149,6 +149,6 @@ img.titlepic
 	display:block;
 	margin-left:auto;
 	margin-right:auto;
-	width:30%;
-	height:70%;
+	width:auto;
+	height:100%;
 }
