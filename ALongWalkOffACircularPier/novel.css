@@ -52,9 +52,10 @@ p.chapterhead
 
 p.chapterlink
 {
-	font-size:1.6em;
+	font-size:2.6em;
 	text-align:right;
 	margin-right:10%;
+	font-family:longwalk2;
 }
 
 p.endofchapter
