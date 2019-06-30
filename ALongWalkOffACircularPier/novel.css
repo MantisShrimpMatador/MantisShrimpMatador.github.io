@@ -29,6 +29,23 @@ p.content
 	font-family:longwalk;
 }
 
+p.lyric
+{
+	text-align:left;
+	font-size:1.3em;
+	line-height:1.8em;
+	margin-right:10%;
+	margin-left:5%;
+	margin-bottom:0%;
+	margin-top:0%;
+	padding-left:10%;
+	font-family:longwalk;
+	font-style:italic;
+	letter-spacing:0.2em;
+	color:rgb(0,0,0);
+	background-color:rgb(215,130,130);
+}
+
 p.sectionend
 {
 	font-size:5em;
